@@ -1,0 +1,1477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6F3575ABBF442604BA22F2D9 /* libPods-TRTHealthDoctor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4360CC645A238EF7A40F3DF /* libPods-TRTHealthDoctor.a */; };
+		8951FA4A3216D10A844D4B9A /* libPods-TRTHealthDoctorUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 818ABF46E2C85FBD71CE394F /* libPods-TRTHealthDoctorUITests.a */; };
+		96617EF04F17742AB095E4AD /* libPods-TRTHealthDoctorTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 928A6DCE1305F3CE9C428A56 /* libPods-TRTHealthDoctorTests.a */; };
+		CB2B98C7215F52A800838A02 /* UILabel+PJMasonryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98AF215F52A700838A02 /* UILabel+PJMasonryKit.m */; };
+		CB2B98C8215F52A800838A02 /* UITextField+PJMasonryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98B1215F52A700838A02 /* UITextField+PJMasonryKit.m */; };
+		CB2B98C9215F52A800838A02 /* UIView+PJMasonryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98B2215F52A700838A02 /* UIView+PJMasonryKit.m */; };
+		CB2B98CA215F52A800838A02 /* UIImageView+PJMasonryKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98B3215F52A700838A02 /* UIImageView+PJMasonryKit.m */; };
+		CB2B98CB215F52A800838A02 /* UIGestureRecognizer+PJHelperBlockKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98B9215F52A700838A02 /* UIGestureRecognizer+PJHelperBlockKit.m */; };
+		CB2B98CC215F52A800838A02 /* UIControl+PJHelperBlockKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98BE215F52A700838A02 /* UIControl+PJHelperBlockKit.m */; };
+		CB2B98CD215F52A800838A02 /* UIView+PJHelperBlockKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98C0215F52A700838A02 /* UIView+PJHelperBlockKit.m */; };
+		CB2B98CE215F52A800838A02 /* UIButton+PJHelperBlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98C1215F52A700838A02 /* UIButton+PJHelperBlocksKit.m */; };
+		CB2B98CF215F52A800838A02 /* UISlider+PJHelperBlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98C2215F52A700838A02 /* UISlider+PJHelperBlocksKit.m */; };
+		CB2B98D0215F52A800838A02 /* PJCommonKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2B98C6215F52A700838A02 /* PJCommonKit.m */; };
+		CB35EE6E215F549200C61C5D /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35EE6D215F549200C61C5D /* NSString+Extension.m */; };
+		CB35EE71215F54D600C61C5D /* NSObject+topVierController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35EE70215F54D600C61C5D /* NSObject+topVierController.m */; };
+		CB35EE74215F55DE00C61C5D /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35EE73215F55DE00C61C5D /* UIBarButtonItem+Extension.m */; };
+		CB35EE77215F563C00C61C5D /* UIView+MBLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CB35EE76215F563C00C61C5D /* UIView+MBLayout.m */; };
+		CB5089052160560B008C154F /* TRTMainLikeTabBarManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5089042160560B008C154F /* TRTMainLikeTabBarManger.m */; };
+		CB50891121605A91008C154F /* TRTBotAIChatController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50891021605A91008C154F /* TRTBotAIChatController.m */; };
+		CB50891521605FE7008C154F /* TRTMessageDisplayController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50891421605FE7008C154F /* TRTMessageDisplayController.m */; };
+		CB508917216060DF008C154F /* sq_home_information@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB508916216060DF008C154F /* sq_home_information@3x.png */; };
+		CB50891921606298008C154F /* sq_fanhui_all@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB50891821606298008C154F /* sq_fanhui_all@3x.png */; };
+		CB50891E216089F5008C154F /* exit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB50891D216089F5008C154F /* exit@2x.png */; };
+		CB50892121608A21008C154F /* sa_wdxx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB50891F21608A20008C154F /* sa_wdxx@2x.png */; };
+		CB50892221608A21008C154F /* sa_wdxx@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB50892021608A21008C154F /* sa_wdxx@3x.png */; };
+		CB50892D2160A2BE008C154F /* TRTCustomUpDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB50892C2160A2BE008C154F /* TRTCustomUpDownButton.m */; };
+		CB5089312160AA30008C154F /* TRTMallMenuPageManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5089302160AA30008C154F /* TRTMallMenuPageManger.m */; };
+		CB64FA26215F0210006C1FFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FA25215F0210006C1FFE /* AppDelegate.m */; };
+		CB64FA2E215F0210006C1FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA2D215F0210006C1FFE /* Assets.xcassets */; };
+		CB64FA31215F0210006C1FFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA2F215F0210006C1FFE /* LaunchScreen.storyboard */; };
+		CB64FA34215F0210006C1FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FA33215F0210006C1FFE /* main.m */; };
+		CB64FA3E215F0211006C1FFE /* TRTHealthDoctorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FA3D215F0211006C1FFE /* TRTHealthDoctorTests.m */; };
+		CB64FA49215F0211006C1FFE /* TRTHealthDoctorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FA48215F0211006C1FFE /* TRTHealthDoctorUITests.m */; };
+		CB64FACF215F02BE006C1FFE /* TRTShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FA5F215F02BA006C1FFE /* TRTShoppingCartController.m */; };
+		CB64FAD1215F02BE006C1FFE /* tabbar_3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA6E215F02BB006C1FFE /* tabbar_3@2x.png */; };
+		CB64FAD2215F02BE006C1FFE /* tabbar_1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA6F215F02BB006C1FFE /* tabbar_1@3x.png */; };
+		CB64FAD3215F02BE006C1FFE /* tabbar_2_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA70215F02BB006C1FFE /* tabbar_2_on@2x.png */; };
+		CB64FAD4215F02BE006C1FFE /* tabbar_2_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA71215F02BB006C1FFE /* tabbar_2_on@3x.png */; };
+		CB64FAD5215F02BE006C1FFE /* tabbar_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA72215F02BB006C1FFE /* tabbar_1@2x.png */; };
+		CB64FAD6215F02BE006C1FFE /* tabbar_3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA73215F02BB006C1FFE /* tabbar_3@3x.png */; };
+		CB64FAD7215F02BE006C1FFE /* btnRegister@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA74215F02BB006C1FFE /* btnRegister@3x.png */; };
+		CB64FAD8215F02BE006C1FFE /* tabbar_3_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA75215F02BB006C1FFE /* tabbar_3_on@2x.png */; };
+		CB64FAD9215F02BE006C1FFE /* tabbar_3_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA76215F02BB006C1FFE /* tabbar_3_on@3x.png */; };
+		CB64FADA215F02BE006C1FFE /* btnRegister@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA77215F02BB006C1FFE /* btnRegister@2x.png */; };
+		CB64FADB215F02BE006C1FFE /* tabbar_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA78215F02BB006C1FFE /* tabbar_2@2x.png */; };
+		CB64FADC215F02BE006C1FFE /* tabbar_2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA79215F02BB006C1FFE /* tabbar_2@3x.png */; };
+		CB64FADD215F02BE006C1FFE /* tabbar_1_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA7A215F02BB006C1FFE /* tabbar_1_on@2x.png */; };
+		CB64FADE215F02BE006C1FFE /* btn-k@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA7B215F02BB006C1FFE /* btn-k@3x.png */; };
+		CB64FADF215F02BE006C1FFE /* btn-k@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA7C215F02BB006C1FFE /* btn-k@2x.png */; };
+		CB64FAE0215F02BE006C1FFE /* tabbar_1_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB64FA7D215F02BB006C1FFE /* tabbar_1_on@3x.png */; };
+		CB64FAE6215F02BE006C1FFE /* TRTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FA95215F02BC006C1FFE /* TRTHomeViewController.m */; };
+		CB64FAE8215F02BE006C1FFE /* TRTHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FA9A215F02BC006C1FFE /* TRTHomeCell.m */; };
+		CB64FAE9215F02BE006C1FFE /* TRTHomeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FA9D215F02BC006C1FFE /* TRTHomeHelper.m */; };
+		CB64FAF5215F02BE006C1FFE /* CommonKeyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FAC8215F02BE006C1FFE /* CommonKeyManager.m */; };
+		CB64FAF6215F02BE006C1FFE /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = CB64FACB215F02BE006C1FFE /* UIImage+Extension.m */; };
+		CB991E79215F061800C8CAF0 /* TRTHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CB991E78215F061800C8CAF0 /* TRTHomeModel.m */; };
+		CB991E8D215F113700C8CAF0 /* CommonStatusValueManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CB991E8C215F113700C8CAF0 /* CommonStatusValueManager.m */; };
+		CBC8FFE4215F9E3400435E16 /* TRTBaseWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFC9215F9E3400435E16 /* TRTBaseWebView.m */; };
+		CBC8FFE5215F9E3400435E16 /* TRTBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFCA215F9E3400435E16 /* TRTBaseModel.m */; };
+		CBC8FFE6215F9E3400435E16 /* TRTBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFCB215F9E3400435E16 /* TRTBaseController.m */; };
+		CBC8FFE7215F9E3400435E16 /* TRTBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFCC215F9E3400435E16 /* TRTBaseTabBarController.m */; };
+		CBC8FFE8215F9E3400435E16 /* TRTBaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFCD215F9E3400435E16 /* TRTBaseTableView.m */; };
+		CBC8FFE9215F9E3400435E16 /* TRTBaseDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFCF215F9E3400435E16 /* TRTBaseDataHelper.m */; };
+		CBC8FFEA215F9E3400435E16 /* TRTBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFD5215F9E3400435E16 /* TRTBaseNavigationController.m */; };
+		CBC8FFEB215F9E3400435E16 /* TRTGuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFDA215F9E3400435E16 /* TRTGuideController.m */; };
+		CBC8FFEC215F9E3400435E16 /* TRTSDKIntegrationManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFDD215F9E3400435E16 /* TRTSDKIntegrationManger.m */; };
+		CBC8FFED215F9E3400435E16 /* TRTMainTabBarManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFE1215F9E3400435E16 /* TRTMainTabBarManger.m */; };
+		CBC8FFEE215F9E3400435E16 /* TRTMainPageManger.m in Sources */ = {isa = PBXBuildFile; fileRef = CBC8FFE2215F9E3400435E16 /* TRTMainPageManger.m */; };
+		CBCB72BD216C756D001BABB6 /* NSObject+TRTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB72BA216C756D001BABB6 /* NSObject+TRTTools.m */; };
+		CBCB72BE216C756D001BABB6 /* TRTTools.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB72BB216C756D001BABB6 /* TRTTools.m */; };
+		CBCB72C2216C7618001BABB6 /* NSObject+TRTSafeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = CBCB72C0216C7618001BABB6 /* NSObject+TRTSafeTool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB64FA3A215F0211006C1FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB64FA19215F0210006C1FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB64FA20215F0210006C1FFE;
+			remoteInfo = TRTHealthDoctor;
+		};
+		CB64FA45215F0211006C1FFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB64FA19215F0210006C1FFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB64FA20215F0210006C1FFE;
+			remoteInfo = TRTHealthDoctor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28E355850CB486B49C2FDAC9 /* Pods-TRTHealthDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRTHealthDoctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRTHealthDoctor/Pods-TRTHealthDoctor.release.xcconfig"; sourceTree = "<group>"; };
+		3C220F36382FE9CADB2DF650 /* Pods-TRTHealthDoctorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRTHealthDoctorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRTHealthDoctorUITests/Pods-TRTHealthDoctorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B1325B3D1179ADB376E32E4 /* Pods-TRTHealthDoctorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRTHealthDoctorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRTHealthDoctorTests/Pods-TRTHealthDoctorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		818ABF46E2C85FBD71CE394F /* libPods-TRTHealthDoctorUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRTHealthDoctorUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		928A6DCE1305F3CE9C428A56 /* libPods-TRTHealthDoctorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRTHealthDoctorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B739B8B60DA9976246F8FBF6 /* Pods-TRTHealthDoctorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRTHealthDoctorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRTHealthDoctorUITests/Pods-TRTHealthDoctorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C4360CC645A238EF7A40F3DF /* libPods-TRTHealthDoctor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TRTHealthDoctor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2B98AF215F52A700838A02 /* UILabel+PJMasonryKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+PJMasonryKit.m"; sourceTree = "<group>"; };
+		CB2B98B0215F52A700838A02 /* PJMasonryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJMasonryKit.h; sourceTree = "<group>"; };
+		CB2B98B1215F52A700838A02 /* UITextField+PJMasonryKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+PJMasonryKit.m"; sourceTree = "<group>"; };
+		CB2B98B2215F52A700838A02 /* UIView+PJMasonryKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PJMasonryKit.m"; sourceTree = "<group>"; };
+		CB2B98B3215F52A700838A02 /* UIImageView+PJMasonryKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+PJMasonryKit.m"; sourceTree = "<group>"; };
+		CB2B98B4215F52A700838A02 /* UITextField+PJMasonryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+PJMasonryKit.h"; sourceTree = "<group>"; };
+		CB2B98B5215F52A700838A02 /* UILabel+PJMasonryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+PJMasonryKit.h"; sourceTree = "<group>"; };
+		CB2B98B6215F52A700838A02 /* UIView+PJMasonryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PJMasonryKit.h"; sourceTree = "<group>"; };
+		CB2B98B7215F52A700838A02 /* UIImageView+PJMasonryKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+PJMasonryKit.h"; sourceTree = "<group>"; };
+		CB2B98B9215F52A700838A02 /* UIGestureRecognizer+PJHelperBlockKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+PJHelperBlockKit.m"; sourceTree = "<group>"; };
+		CB2B98BA215F52A700838A02 /* UIButton+PJHelperBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PJHelperBlocksKit.h"; sourceTree = "<group>"; };
+		CB2B98BB215F52A700838A02 /* UIView+PJHelperBlockKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PJHelperBlockKit.h"; sourceTree = "<group>"; };
+		CB2B98BC215F52A700838A02 /* PJHelperBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJHelperBlocksKit.h; sourceTree = "<group>"; };
+		CB2B98BD215F52A700838A02 /* UISlider+PJHelperBlocksKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISlider+PJHelperBlocksKit.h"; sourceTree = "<group>"; };
+		CB2B98BE215F52A700838A02 /* UIControl+PJHelperBlockKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+PJHelperBlockKit.m"; sourceTree = "<group>"; };
+		CB2B98BF215F52A700838A02 /* UIGestureRecognizer+PJHelperBlockKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+PJHelperBlockKit.h"; sourceTree = "<group>"; };
+		CB2B98C0215F52A700838A02 /* UIView+PJHelperBlockKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PJHelperBlockKit.m"; sourceTree = "<group>"; };
+		CB2B98C1215F52A700838A02 /* UIButton+PJHelperBlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PJHelperBlocksKit.m"; sourceTree = "<group>"; };
+		CB2B98C2215F52A700838A02 /* UISlider+PJHelperBlocksKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISlider+PJHelperBlocksKit.m"; sourceTree = "<group>"; };
+		CB2B98C3215F52A700838A02 /* UIControl+PJHelperBlockKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+PJHelperBlockKit.h"; sourceTree = "<group>"; };
+		CB2B98C5215F52A700838A02 /* PJCommonKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PJCommonKit.h; sourceTree = "<group>"; };
+		CB2B98C6215F52A700838A02 /* PJCommonKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PJCommonKit.m; sourceTree = "<group>"; };
+		CB35EE6C215F549200C61C5D /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		CB35EE6D215F549200C61C5D /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		CB35EE6F215F54D600C61C5D /* NSObject+topVierController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+topVierController.h"; sourceTree = "<group>"; };
+		CB35EE70215F54D600C61C5D /* NSObject+topVierController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+topVierController.m"; sourceTree = "<group>"; };
+		CB35EE72215F55DE00C61C5D /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		CB35EE73215F55DE00C61C5D /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		CB35EE75215F563C00C61C5D /* UIView+MBLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+MBLayout.h"; sourceTree = "<group>"; };
+		CB35EE76215F563C00C61C5D /* UIView+MBLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+MBLayout.m"; sourceTree = "<group>"; };
+		CB5089032160560B008C154F /* TRTMainLikeTabBarManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRTMainLikeTabBarManger.h; sourceTree = "<group>"; };
+		CB5089042160560B008C154F /* TRTMainLikeTabBarManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTMainLikeTabBarManger.m; sourceTree = "<group>"; };
+		CB50890F21605A91008C154F /* TRTBotAIChatController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRTBotAIChatController.h; sourceTree = "<group>"; };
+		CB50891021605A91008C154F /* TRTBotAIChatController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTBotAIChatController.m; sourceTree = "<group>"; };
+		CB50891321605FE7008C154F /* TRTMessageDisplayController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRTMessageDisplayController.h; sourceTree = "<group>"; };
+		CB50891421605FE7008C154F /* TRTMessageDisplayController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTMessageDisplayController.m; sourceTree = "<group>"; };
+		CB508916216060DF008C154F /* sq_home_information@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sq_home_information@3x.png"; sourceTree = "<group>"; };
+		CB50891821606298008C154F /* sq_fanhui_all@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sq_fanhui_all@3x.png"; sourceTree = "<group>"; };
+		CB50891D216089F5008C154F /* exit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "exit@2x.png"; sourceTree = "<group>"; };
+		CB50891F21608A20008C154F /* sa_wdxx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sa_wdxx@2x.png"; sourceTree = "<group>"; };
+		CB50892021608A21008C154F /* sa_wdxx@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sa_wdxx@3x.png"; sourceTree = "<group>"; };
+		CB50892B2160A2BE008C154F /* TRTCustomUpDownButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRTCustomUpDownButton.h; sourceTree = "<group>"; };
+		CB50892C2160A2BE008C154F /* TRTCustomUpDownButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTCustomUpDownButton.m; sourceTree = "<group>"; };
+		CB50892F2160AA30008C154F /* TRTMallMenuPageManger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRTMallMenuPageManger.h; sourceTree = "<group>"; };
+		CB5089302160AA30008C154F /* TRTMallMenuPageManger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTMallMenuPageManger.m; sourceTree = "<group>"; };
+		CB64FA21215F0210006C1FFE /* TRTHealthDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRTHealthDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB64FA24215F0210006C1FFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CB64FA25215F0210006C1FFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CB64FA2D215F0210006C1FFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB64FA30215F0210006C1FFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB64FA32215F0210006C1FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB64FA33215F0210006C1FFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB64FA39215F0211006C1FFE /* TRTHealthDoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRTHealthDoctorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB64FA3D215F0211006C1FFE /* TRTHealthDoctorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTHealthDoctorTests.m; sourceTree = "<group>"; };
+		CB64FA3F215F0211006C1FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB64FA44215F0211006C1FFE /* TRTHealthDoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRTHealthDoctorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB64FA48215F0211006C1FFE /* TRTHealthDoctorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTHealthDoctorUITests.m; sourceTree = "<group>"; };
+		CB64FA4A215F0211006C1FFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB64FA56215F0295006C1FFE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CB64FA5F215F02BA006C1FFE /* TRTShoppingCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTShoppingCartController.m; sourceTree = "<group>"; };
+		CB64FA60215F02BA006C1FFE /* TRTShoppingCartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTShoppingCartController.h; sourceTree = "<group>"; };
+		CB64FA6E215F02BB006C1FFE /* tabbar_3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3@2x.png"; sourceTree = "<group>"; };
+		CB64FA6F215F02BB006C1FFE /* tabbar_1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1@3x.png"; sourceTree = "<group>"; };
+		CB64FA70215F02BB006C1FFE /* tabbar_2_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_2_on@2x.png"; sourceTree = "<group>"; };
+		CB64FA71215F02BB006C1FFE /* tabbar_2_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_2_on@3x.png"; sourceTree = "<group>"; };
+		CB64FA72215F02BB006C1FFE /* tabbar_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1@2x.png"; sourceTree = "<group>"; };
+		CB64FA73215F02BB006C1FFE /* tabbar_3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3@3x.png"; sourceTree = "<group>"; };
+		CB64FA74215F02BB006C1FFE /* btnRegister@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRegister@3x.png"; sourceTree = "<group>"; };
+		CB64FA75215F02BB006C1FFE /* tabbar_3_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3_on@2x.png"; sourceTree = "<group>"; };
+		CB64FA76215F02BB006C1FFE /* tabbar_3_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_3_on@3x.png"; sourceTree = "<group>"; };
+		CB64FA77215F02BB006C1FFE /* btnRegister@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnRegister@2x.png"; sourceTree = "<group>"; };
+		CB64FA78215F02BB006C1FFE /* tabbar_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_2@2x.png"; sourceTree = "<group>"; };
+		CB64FA79215F02BB006C1FFE /* tabbar_2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_2@3x.png"; sourceTree = "<group>"; };
+		CB64FA7A215F02BB006C1FFE /* tabbar_1_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1_on@2x.png"; sourceTree = "<group>"; };
+		CB64FA7B215F02BB006C1FFE /* btn-k@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-k@3x.png"; sourceTree = "<group>"; };
+		CB64FA7C215F02BB006C1FFE /* btn-k@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-k@2x.png"; sourceTree = "<group>"; };
+		CB64FA7D215F02BB006C1FFE /* tabbar_1_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tabbar_1_on@3x.png"; sourceTree = "<group>"; };
+		CB64FA94215F02BC006C1FFE /* TRTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTHomeViewController.h; sourceTree = "<group>"; };
+		CB64FA95215F02BC006C1FFE /* TRTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTHomeViewController.m; sourceTree = "<group>"; };
+		CB64FA9A215F02BC006C1FFE /* TRTHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTHomeCell.m; sourceTree = "<group>"; };
+		CB64FA9B215F02BC006C1FFE /* TRTHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTHomeCell.h; sourceTree = "<group>"; };
+		CB64FA9D215F02BC006C1FFE /* TRTHomeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTHomeHelper.m; sourceTree = "<group>"; };
+		CB64FA9E215F02BC006C1FFE /* TRTHomeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTHomeHelper.h; sourceTree = "<group>"; };
+		CB64FAC7215F02BE006C1FFE /* CommonKeyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonKeyManager.h; sourceTree = "<group>"; };
+		CB64FAC8215F02BE006C1FFE /* CommonKeyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonKeyManager.m; sourceTree = "<group>"; };
+		CB64FACB215F02BE006C1FFE /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		CB64FACC215F02BE006C1FFE /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		CB991E77215F061800C8CAF0 /* TRTHomeModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TRTHomeModel.h; sourceTree = "<group>"; };
+		CB991E78215F061800C8CAF0 /* TRTHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRTHomeModel.m; sourceTree = "<group>"; };
+		CB991E8B215F113700C8CAF0 /* CommonStatusValueManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonStatusValueManager.h; sourceTree = "<group>"; };
+		CB991E8C215F113700C8CAF0 /* CommonStatusValueManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonStatusValueManager.m; sourceTree = "<group>"; };
+		CBC8FFC4215F9E3400435E16 /* Common_LibMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_LibMacro.h; sourceTree = "<group>"; };
+		CBC8FFC5215F9E3400435E16 /* Common_Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_Macro.h; sourceTree = "<group>"; };
+		CBC8FFC6215F9E3400435E16 /* Common_Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_Color.h; sourceTree = "<group>"; };
+		CBC8FFC7215F9E3400435E16 /* Common_HeaderFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_HeaderFile.h; sourceTree = "<group>"; };
+		CBC8FFC9215F9E3400435E16 /* TRTBaseWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTBaseWebView.m; sourceTree = "<group>"; };
+		CBC8FFCA215F9E3400435E16 /* TRTBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTBaseModel.m; sourceTree = "<group>"; };
+		CBC8FFCB215F9E3400435E16 /* TRTBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTBaseController.m; sourceTree = "<group>"; };
+		CBC8FFCC215F9E3400435E16 /* TRTBaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTBaseTabBarController.m; sourceTree = "<group>"; };
+		CBC8FFCD215F9E3400435E16 /* TRTBaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTBaseTableView.m; sourceTree = "<group>"; };
+		CBC8FFCE215F9E3400435E16 /* TRTBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTBaseNavigationController.h; sourceTree = "<group>"; };
+		CBC8FFCF215F9E3400435E16 /* TRTBaseDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTBaseDataHelper.m; sourceTree = "<group>"; };
+		CBC8FFD0215F9E3400435E16 /* TRTBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTBaseController.h; sourceTree = "<group>"; };
+		CBC8FFD1215F9E3400435E16 /* TRTBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTBaseModel.h; sourceTree = "<group>"; };
+		CBC8FFD2215F9E3400435E16 /* TRTBaseWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTBaseWebView.h; sourceTree = "<group>"; };
+		CBC8FFD3215F9E3400435E16 /* TRTBaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTBaseTabBarController.h; sourceTree = "<group>"; };
+		CBC8FFD4215F9E3400435E16 /* TRTBaseDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTBaseDataHelper.h; sourceTree = "<group>"; };
+		CBC8FFD5215F9E3400435E16 /* TRTBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTBaseNavigationController.m; sourceTree = "<group>"; };
+		CBC8FFD6215F9E3400435E16 /* TRTBaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTBaseTableView.h; sourceTree = "<group>"; };
+		CBC8FFD9215F9E3400435E16 /* TRTGuideController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTGuideController.h; sourceTree = "<group>"; };
+		CBC8FFDA215F9E3400435E16 /* TRTGuideController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTGuideController.m; sourceTree = "<group>"; };
+		CBC8FFDC215F9E3400435E16 /* TRTSDKIntegrationManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTSDKIntegrationManger.h; sourceTree = "<group>"; };
+		CBC8FFDD215F9E3400435E16 /* TRTSDKIntegrationManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTSDKIntegrationManger.m; sourceTree = "<group>"; };
+		CBC8FFDF215F9E3400435E16 /* TRTMainPageManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTMainPageManger.h; sourceTree = "<group>"; };
+		CBC8FFE0215F9E3400435E16 /* TRTMainTabBarManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTMainTabBarManger.h; sourceTree = "<group>"; };
+		CBC8FFE1215F9E3400435E16 /* TRTMainTabBarManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTMainTabBarManger.m; sourceTree = "<group>"; };
+		CBC8FFE2215F9E3400435E16 /* TRTMainPageManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTMainPageManger.m; sourceTree = "<group>"; };
+		CBC8FFE3215F9E3400435E16 /* Common_Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_Notification.h; sourceTree = "<group>"; };
+		CBCB72B9216C756D001BABB6 /* TRTTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRTTools.h; sourceTree = "<group>"; };
+		CBCB72BA216C756D001BABB6 /* NSObject+TRTTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TRTTools.m"; sourceTree = "<group>"; };
+		CBCB72BB216C756D001BABB6 /* TRTTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRTTools.m; sourceTree = "<group>"; };
+		CBCB72BC216C756D001BABB6 /* NSObject+TRTTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TRTTools.h"; sourceTree = "<group>"; };
+		CBCB72C0216C7618001BABB6 /* NSObject+TRTSafeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+TRTSafeTool.m"; sourceTree = "<group>"; };
+		CBCB72C1216C7618001BABB6 /* NSObject+TRTSafeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+TRTSafeTool.h"; sourceTree = "<group>"; };
+		D9A2BFBE139F5417166B4361 /* Pods-TRTHealthDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRTHealthDoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRTHealthDoctor/Pods-TRTHealthDoctor.debug.xcconfig"; sourceTree = "<group>"; };
+		F031C34B7E3ECCFE1792C9FF /* Pods-TRTHealthDoctorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRTHealthDoctorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRTHealthDoctorTests/Pods-TRTHealthDoctorTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB64FA1E215F0210006C1FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F3575ABBF442604BA22F2D9 /* libPods-TRTHealthDoctor.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB64FA36215F0211006C1FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96617EF04F17742AB095E4AD /* libPods-TRTHealthDoctorTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB64FA41215F0211006C1FFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8951FA4A3216D10A844D4B9A /* libPods-TRTHealthDoctorUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32B0966D235F51248E0A4C74 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4360CC645A238EF7A40F3DF /* libPods-TRTHealthDoctor.a */,
+				928A6DCE1305F3CE9C428A56 /* libPods-TRTHealthDoctorTests.a */,
+				818ABF46E2C85FBD71CE394F /* libPods-TRTHealthDoctorUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9462162CAB02EC0AE294D85D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9A2BFBE139F5417166B4361 /* Pods-TRTHealthDoctor.debug.xcconfig */,
+				28E355850CB486B49C2FDAC9 /* Pods-TRTHealthDoctor.release.xcconfig */,
+				5B1325B3D1179ADB376E32E4 /* Pods-TRTHealthDoctorTests.debug.xcconfig */,
+				F031C34B7E3ECCFE1792C9FF /* Pods-TRTHealthDoctorTests.release.xcconfig */,
+				3C220F36382FE9CADB2DF650 /* Pods-TRTHealthDoctorUITests.debug.xcconfig */,
+				B739B8B60DA9976246F8FBF6 /* Pods-TRTHealthDoctorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB2B98AD215F52A700838A02 /* PJKitHelper */ = {
+			isa = PBXGroup;
+			children = (
+				CB2B98AE215F52A700838A02 /* MasonryKit */,
+				CB2B98B8215F52A700838A02 /* UIBlocksKit */,
+				CB2B98C4215F52A700838A02 /* CommonKit */,
+			);
+			path = PJKitHelper;
+			sourceTree = "<group>";
+		};
+		CB2B98AE215F52A700838A02 /* MasonryKit */ = {
+			isa = PBXGroup;
+			children = (
+				CB2B98AF215F52A700838A02 /* UILabel+PJMasonryKit.m */,
+				CB2B98B0215F52A700838A02 /* PJMasonryKit.h */,
+				CB2B98B1215F52A700838A02 /* UITextField+PJMasonryKit.m */,
+				CB2B98B2215F52A700838A02 /* UIView+PJMasonryKit.m */,
+				CB2B98B3215F52A700838A02 /* UIImageView+PJMasonryKit.m */,
+				CB2B98B4215F52A700838A02 /* UITextField+PJMasonryKit.h */,
+				CB2B98B5215F52A700838A02 /* UILabel+PJMasonryKit.h */,
+				CB2B98B6215F52A700838A02 /* UIView+PJMasonryKit.h */,
+				CB2B98B7215F52A700838A02 /* UIImageView+PJMasonryKit.h */,
+			);
+			path = MasonryKit;
+			sourceTree = "<group>";
+		};
+		CB2B98B8215F52A700838A02 /* UIBlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				CB2B98B9215F52A700838A02 /* UIGestureRecognizer+PJHelperBlockKit.m */,
+				CB2B98BA215F52A700838A02 /* UIButton+PJHelperBlocksKit.h */,
+				CB2B98BB215F52A700838A02 /* UIView+PJHelperBlockKit.h */,
+				CB2B98BC215F52A700838A02 /* PJHelperBlocksKit.h */,
+				CB2B98BD215F52A700838A02 /* UISlider+PJHelperBlocksKit.h */,
+				CB2B98BE215F52A700838A02 /* UIControl+PJHelperBlockKit.m */,
+				CB2B98BF215F52A700838A02 /* UIGestureRecognizer+PJHelperBlockKit.h */,
+				CB2B98C0215F52A700838A02 /* UIView+PJHelperBlockKit.m */,
+				CB2B98C1215F52A700838A02 /* UIButton+PJHelperBlocksKit.m */,
+				CB2B98C2215F52A700838A02 /* UISlider+PJHelperBlocksKit.m */,
+				CB2B98C3215F52A700838A02 /* UIControl+PJHelperBlockKit.h */,
+			);
+			path = UIBlocksKit;
+			sourceTree = "<group>";
+		};
+		CB2B98C4215F52A700838A02 /* CommonKit */ = {
+			isa = PBXGroup;
+			children = (
+				CB2B98C5215F52A700838A02 /* PJCommonKit.h */,
+				CB2B98C6215F52A700838A02 /* PJCommonKit.m */,
+			);
+			path = CommonKit;
+			sourceTree = "<group>";
+		};
+		CB50890621605A61008C154F /* BotAIChat */ = {
+			isa = PBXGroup;
+			children = (
+				CB50890821605A61008C154F /* Controller */,
+				CB50890D21605A61008C154F /* Helper */,
+				CB50890B21605A61008C154F /* Model */,
+				CB50890C21605A61008C154F /* View */,
+				CB50890721605A61008C154F /* Others */,
+			);
+			path = BotAIChat;
+			sourceTree = "<group>";
+		};
+		CB50890721605A61008C154F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CB50891221605FCF008C154F /* MessageDisplay */,
+				CB50892E2160AA0D008C154F /* MallMenuPage */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CB50890821605A61008C154F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB50890F21605A91008C154F /* TRTBotAIChatController.h */,
+				CB50891021605A91008C154F /* TRTBotAIChatController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB50890B21605A61008C154F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB50890C21605A61008C154F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB50890D21605A61008C154F /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CB50891221605FCF008C154F /* MessageDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				CB50891321605FE7008C154F /* TRTMessageDisplayController.h */,
+				CB50891421605FE7008C154F /* TRTMessageDisplayController.m */,
+			);
+			path = MessageDisplay;
+			sourceTree = "<group>";
+		};
+		CB5089262160A205008C154F /* CustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				CB5089272160A231008C154F /* CustomButton */,
+			);
+			path = CustomControls;
+			sourceTree = "<group>";
+		};
+		CB5089272160A231008C154F /* CustomButton */ = {
+			isa = PBXGroup;
+			children = (
+				CB50892B2160A2BE008C154F /* TRTCustomUpDownButton.h */,
+				CB50892C2160A2BE008C154F /* TRTCustomUpDownButton.m */,
+			);
+			path = CustomButton;
+			sourceTree = "<group>";
+		};
+		CB50892E2160AA0D008C154F /* MallMenuPage */ = {
+			isa = PBXGroup;
+			children = (
+				CB50892F2160AA30008C154F /* TRTMallMenuPageManger.h */,
+				CB5089302160AA30008C154F /* TRTMallMenuPageManger.m */,
+			);
+			path = MallMenuPage;
+			sourceTree = "<group>";
+		};
+		CB64FA18215F0210006C1FFE = {
+			isa = PBXGroup;
+			children = (
+				CB64FA23215F0210006C1FFE /* TRTHealthDoctor */,
+				CB64FA3C215F0211006C1FFE /* TRTHealthDoctorTests */,
+				CB64FA47215F0211006C1FFE /* TRTHealthDoctorUITests */,
+				CB64FA22215F0210006C1FFE /* Products */,
+				9462162CAB02EC0AE294D85D /* Pods */,
+				32B0966D235F51248E0A4C74 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CB64FA22215F0210006C1FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA21215F0210006C1FFE /* TRTHealthDoctor.app */,
+				CB64FA39215F0211006C1FFE /* TRTHealthDoctorTests.xctest */,
+				CB64FA44215F0211006C1FFE /* TRTHealthDoctorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB64FA23215F0210006C1FFE /* TRTHealthDoctor */ = {
+			isa = PBXGroup;
+			children = (
+				CB50890621605A61008C154F /* BotAIChat */,
+				CB64FA91215F02BC006C1FFE /* Home */,
+				CB64FA5C215F02BA006C1FFE /* ShoppingCart */,
+				CB64FA67215F02BB006C1FFE /* TRTRoute */,
+				CB64FAA7215F02BE006C1FFE /* ToolsComponent */,
+				CB64FA64215F02BA006C1FFE /* BaseLayerComponents */,
+				CB64FA68215F02BB006C1FFE /* Resource */,
+				CB64FA24215F0210006C1FFE /* AppDelegate.h */,
+				CB64FA25215F0210006C1FFE /* AppDelegate.m */,
+				CB64FA56215F0295006C1FFE /* PrefixHeader.pch */,
+				CB64FA2D215F0210006C1FFE /* Assets.xcassets */,
+				CB64FA2F215F0210006C1FFE /* LaunchScreen.storyboard */,
+				CB64FA32215F0210006C1FFE /* Info.plist */,
+				CB64FA33215F0210006C1FFE /* main.m */,
+			);
+			path = TRTHealthDoctor;
+			sourceTree = "<group>";
+		};
+		CB64FA3C215F0211006C1FFE /* TRTHealthDoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA3D215F0211006C1FFE /* TRTHealthDoctorTests.m */,
+				CB64FA3F215F0211006C1FFE /* Info.plist */,
+			);
+			path = TRTHealthDoctorTests;
+			sourceTree = "<group>";
+		};
+		CB64FA47215F0211006C1FFE /* TRTHealthDoctorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA48215F0211006C1FFE /* TRTHealthDoctorUITests.m */,
+				CB64FA4A215F0211006C1FFE /* Info.plist */,
+			);
+			path = TRTHealthDoctorUITests;
+			sourceTree = "<group>";
+		};
+		CB64FA5C215F02BA006C1FFE /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA5E215F02BA006C1FFE /* Controller */,
+				CB64FA63215F02BA006C1FFE /* Helper */,
+				CB64FA61215F02BA006C1FFE /* Model */,
+				CB64FA62215F02BA006C1FFE /* View */,
+				CB64FA5D215F02BA006C1FFE /* Others */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		CB64FA5D215F02BA006C1FFE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CB64FA5E215F02BA006C1FFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA5F215F02BA006C1FFE /* TRTShoppingCartController.m */,
+				CB64FA60215F02BA006C1FFE /* TRTShoppingCartController.h */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB64FA61215F02BA006C1FFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB64FA62215F02BA006C1FFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB64FA63215F02BA006C1FFE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CB64FA64215F02BA006C1FFE /* BaseLayerComponents */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA65215F02BA006C1FFE /* Frameworks */,
+				CB64FA66215F02BA006C1FFE /* ThirdParty */,
+			);
+			path = BaseLayerComponents;
+			sourceTree = "<group>";
+		};
+		CB64FA65215F02BA006C1FFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB64FA66215F02BA006C1FFE /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		CB64FA67215F02BB006C1FFE /* TRTRoute */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TRTRoute;
+			sourceTree = "<group>";
+		};
+		CB64FA68215F02BB006C1FFE /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA6B215F02BB006C1FFE /* TRTTestFile */,
+				CB64FA69215F02BB006C1FFE /* Guide */,
+				CB64FA6A215F02BB006C1FFE /* Home */,
+				CB64FA6D215F02BB006C1FFE /* NavTabBar */,
+				CB64FA7E215F02BB006C1FFE /* Icon */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CB64FA69215F02BB006C1FFE /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		CB64FA6A215F02BB006C1FFE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB50891D216089F5008C154F /* exit@2x.png */,
+				CB50891821606298008C154F /* sq_fanhui_all@3x.png */,
+				CB508916216060DF008C154F /* sq_home_information@3x.png */,
+				CB50891F21608A20008C154F /* sa_wdxx@2x.png */,
+				CB50892021608A21008C154F /* sa_wdxx@3x.png */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB64FA6B215F02BB006C1FFE /* TRTTestFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TRTTestFile;
+			sourceTree = "<group>";
+		};
+		CB64FA6D215F02BB006C1FFE /* NavTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA6E215F02BB006C1FFE /* tabbar_3@2x.png */,
+				CB64FA6F215F02BB006C1FFE /* tabbar_1@3x.png */,
+				CB64FA70215F02BB006C1FFE /* tabbar_2_on@2x.png */,
+				CB64FA71215F02BB006C1FFE /* tabbar_2_on@3x.png */,
+				CB64FA72215F02BB006C1FFE /* tabbar_1@2x.png */,
+				CB64FA73215F02BB006C1FFE /* tabbar_3@3x.png */,
+				CB64FA74215F02BB006C1FFE /* btnRegister@3x.png */,
+				CB64FA75215F02BB006C1FFE /* tabbar_3_on@2x.png */,
+				CB64FA76215F02BB006C1FFE /* tabbar_3_on@3x.png */,
+				CB64FA77215F02BB006C1FFE /* btnRegister@2x.png */,
+				CB64FA78215F02BB006C1FFE /* tabbar_2@2x.png */,
+				CB64FA79215F02BB006C1FFE /* tabbar_2@3x.png */,
+				CB64FA7A215F02BB006C1FFE /* tabbar_1_on@2x.png */,
+				CB64FA7B215F02BB006C1FFE /* btn-k@3x.png */,
+				CB64FA7C215F02BB006C1FFE /* btn-k@2x.png */,
+				CB64FA7D215F02BB006C1FFE /* tabbar_1_on@3x.png */,
+			);
+			path = NavTabBar;
+			sourceTree = "<group>";
+		};
+		CB64FA7E215F02BB006C1FFE /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		CB64FA91215F02BC006C1FFE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA93215F02BC006C1FFE /* Controller */,
+				CB64FA9C215F02BC006C1FFE /* Helper */,
+				CB64FA96215F02BC006C1FFE /* Model */,
+				CB64FA99215F02BC006C1FFE /* View */,
+				CB64FA92215F02BC006C1FFE /* Others */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CB64FA92215F02BC006C1FFE /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CB64FA93215F02BC006C1FFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA94215F02BC006C1FFE /* TRTHomeViewController.h */,
+				CB64FA95215F02BC006C1FFE /* TRTHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB64FA96215F02BC006C1FFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CB991E77215F061800C8CAF0 /* TRTHomeModel.h */,
+				CB991E78215F061800C8CAF0 /* TRTHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB64FA99215F02BC006C1FFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA9B215F02BC006C1FFE /* TRTHomeCell.h */,
+				CB64FA9A215F02BC006C1FFE /* TRTHomeCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB64FA9C215F02BC006C1FFE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FA9D215F02BC006C1FFE /* TRTHomeHelper.m */,
+				CB64FA9E215F02BC006C1FFE /* TRTHomeHelper.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		CB64FAA7215F02BE006C1FFE /* ToolsComponent */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB72B8216C756D001BABB6 /* Tools */,
+				CB64FAC3215F02BE006C1FFE /* CommonManager */,
+				CB64FAC2215F02BE006C1FFE /* DBTools */,
+				CB64FACA215F02BE006C1FFE /* Categories */,
+				CB2B98AD215F52A700838A02 /* PJKitHelper */,
+				CBCB72BF216C7618001BABB6 /* FaultErrorManager */,
+				CB5089262160A205008C154F /* CustomControls */,
+				CBC8FFC3215F9E3400435E16 /* BaseClassUnits */,
+			);
+			path = ToolsComponent;
+			sourceTree = "<group>";
+		};
+		CB64FAC2215F02BE006C1FFE /* DBTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DBTools;
+			sourceTree = "<group>";
+		};
+		CB64FAC3215F02BE006C1FFE /* CommonManager */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FAC4215F02BE006C1FFE /* CommonNetWork */,
+				CB64FAC5215F02BE006C1FFE /* CommonTableview */,
+				CB64FAC6215F02BE006C1FFE /* CommonData */,
+				CB64FAC9215F02BE006C1FFE /* CommonCustomView */,
+			);
+			path = CommonManager;
+			sourceTree = "<group>";
+		};
+		CB64FAC4215F02BE006C1FFE /* CommonNetWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonNetWork;
+			sourceTree = "<group>";
+		};
+		CB64FAC5215F02BE006C1FFE /* CommonTableview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonTableview;
+			sourceTree = "<group>";
+		};
+		CB64FAC6215F02BE006C1FFE /* CommonData */ = {
+			isa = PBXGroup;
+			children = (
+				CB64FAC7215F02BE006C1FFE /* CommonKeyManager.h */,
+				CB64FAC8215F02BE006C1FFE /* CommonKeyManager.m */,
+				CB991E8B215F113700C8CAF0 /* CommonStatusValueManager.h */,
+				CB991E8C215F113700C8CAF0 /* CommonStatusValueManager.m */,
+			);
+			path = CommonData;
+			sourceTree = "<group>";
+		};
+		CB64FAC9215F02BE006C1FFE /* CommonCustomView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonCustomView;
+			sourceTree = "<group>";
+		};
+		CB64FACA215F02BE006C1FFE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				CB35EE75215F563C00C61C5D /* UIView+MBLayout.h */,
+				CB35EE76215F563C00C61C5D /* UIView+MBLayout.m */,
+				CB64FACB215F02BE006C1FFE /* UIImage+Extension.m */,
+				CB64FACC215F02BE006C1FFE /* UIImage+Extension.h */,
+				CB35EE6C215F549200C61C5D /* NSString+Extension.h */,
+				CB35EE6D215F549200C61C5D /* NSString+Extension.m */,
+				CB35EE72215F55DE00C61C5D /* UIBarButtonItem+Extension.h */,
+				CB35EE73215F55DE00C61C5D /* UIBarButtonItem+Extension.m */,
+				CB35EE6F215F54D600C61C5D /* NSObject+topVierController.h */,
+				CB35EE70215F54D600C61C5D /* NSObject+topVierController.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		CBC8FFC3215F9E3400435E16 /* BaseClassUnits */ = {
+			isa = PBXGroup;
+			children = (
+				CBC8FFC8215F9E3400435E16 /* BaseClass */,
+				CBC8FFD7215F9E3400435E16 /* BaseUnits */,
+				CBC8FFC6215F9E3400435E16 /* Common_Color.h */,
+				CBC8FFC5215F9E3400435E16 /* Common_Macro.h */,
+				CBC8FFC4215F9E3400435E16 /* Common_LibMacro.h */,
+				CBC8FFC7215F9E3400435E16 /* Common_HeaderFile.h */,
+				CBC8FFE3215F9E3400435E16 /* Common_Notification.h */,
+			);
+			path = BaseClassUnits;
+			sourceTree = "<group>";
+		};
+		CBC8FFC8215F9E3400435E16 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				CBC8FFD0215F9E3400435E16 /* TRTBaseController.h */,
+				CBC8FFCB215F9E3400435E16 /* TRTBaseController.m */,
+				CBC8FFCE215F9E3400435E16 /* TRTBaseNavigationController.h */,
+				CBC8FFD5215F9E3400435E16 /* TRTBaseNavigationController.m */,
+				CBC8FFD3215F9E3400435E16 /* TRTBaseTabBarController.h */,
+				CBC8FFCC215F9E3400435E16 /* TRTBaseTabBarController.m */,
+				CBC8FFD1215F9E3400435E16 /* TRTBaseModel.h */,
+				CBC8FFCA215F9E3400435E16 /* TRTBaseModel.m */,
+				CBC8FFD2215F9E3400435E16 /* TRTBaseWebView.h */,
+				CBC8FFC9215F9E3400435E16 /* TRTBaseWebView.m */,
+				CBC8FFD4215F9E3400435E16 /* TRTBaseDataHelper.h */,
+				CBC8FFCF215F9E3400435E16 /* TRTBaseDataHelper.m */,
+				CBC8FFD6215F9E3400435E16 /* TRTBaseTableView.h */,
+				CBC8FFCD215F9E3400435E16 /* TRTBaseTableView.m */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		CBC8FFD7215F9E3400435E16 /* BaseUnits */ = {
+			isa = PBXGroup;
+			children = (
+				CBC8FFDE215F9E3400435E16 /* ProjectManger */,
+				CBC8FFD8215F9E3400435E16 /* GuideManger */,
+				CBC8FFDB215F9E3400435E16 /* ThirdSDKManger */,
+			);
+			path = BaseUnits;
+			sourceTree = "<group>";
+		};
+		CBC8FFD8215F9E3400435E16 /* GuideManger */ = {
+			isa = PBXGroup;
+			children = (
+				CBC8FFD9215F9E3400435E16 /* TRTGuideController.h */,
+				CBC8FFDA215F9E3400435E16 /* TRTGuideController.m */,
+			);
+			path = GuideManger;
+			sourceTree = "<group>";
+		};
+		CBC8FFDB215F9E3400435E16 /* ThirdSDKManger */ = {
+			isa = PBXGroup;
+			children = (
+				CBC8FFDC215F9E3400435E16 /* TRTSDKIntegrationManger.h */,
+				CBC8FFDD215F9E3400435E16 /* TRTSDKIntegrationManger.m */,
+			);
+			path = ThirdSDKManger;
+			sourceTree = "<group>";
+		};
+		CBC8FFDE215F9E3400435E16 /* ProjectManger */ = {
+			isa = PBXGroup;
+			children = (
+				CBC8FFDF215F9E3400435E16 /* TRTMainPageManger.h */,
+				CBC8FFE2215F9E3400435E16 /* TRTMainPageManger.m */,
+				CBC8FFE0215F9E3400435E16 /* TRTMainTabBarManger.h */,
+				CBC8FFE1215F9E3400435E16 /* TRTMainTabBarManger.m */,
+				CB5089032160560B008C154F /* TRTMainLikeTabBarManger.h */,
+				CB5089042160560B008C154F /* TRTMainLikeTabBarManger.m */,
+			);
+			path = ProjectManger;
+			sourceTree = "<group>";
+		};
+		CBCB72B8216C756D001BABB6 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB72B9216C756D001BABB6 /* TRTTools.h */,
+				CBCB72BB216C756D001BABB6 /* TRTTools.m */,
+				CBCB72BC216C756D001BABB6 /* NSObject+TRTTools.h */,
+				CBCB72BA216C756D001BABB6 /* NSObject+TRTTools.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		CBCB72BF216C7618001BABB6 /* FaultErrorManager */ = {
+			isa = PBXGroup;
+			children = (
+				CBCB72C1216C7618001BABB6 /* NSObject+TRTSafeTool.h */,
+				CBCB72C0216C7618001BABB6 /* NSObject+TRTSafeTool.m */,
+			);
+			path = FaultErrorManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB64FA20215F0210006C1FFE /* TRTHealthDoctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB64FA4D215F0211006C1FFE /* Build configuration list for PBXNativeTarget "TRTHealthDoctor" */;
+			buildPhases = (
+				7D4B1AFC61EB9B14555DE7FC /* [CP] Check Pods Manifest.lock */,
+				CB64FA1D215F0210006C1FFE /* Sources */,
+				CB64FA1E215F0210006C1FFE /* Frameworks */,
+				CB64FA1F215F0210006C1FFE /* Resources */,
+				7E149FD76F30E529BD8D5D95 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRTHealthDoctor;
+			productName = TRTHealthDoctor;
+			productReference = CB64FA21215F0210006C1FFE /* TRTHealthDoctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB64FA38215F0211006C1FFE /* TRTHealthDoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB64FA50215F0211006C1FFE /* Build configuration list for PBXNativeTarget "TRTHealthDoctorTests" */;
+			buildPhases = (
+				527F20CD5003472C305A57A8 /* [CP] Check Pods Manifest.lock */,
+				CB64FA35215F0211006C1FFE /* Sources */,
+				CB64FA36215F0211006C1FFE /* Frameworks */,
+				CB64FA37215F0211006C1FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB64FA3B215F0211006C1FFE /* PBXTargetDependency */,
+			);
+			name = TRTHealthDoctorTests;
+			productName = TRTHealthDoctorTests;
+			productReference = CB64FA39215F0211006C1FFE /* TRTHealthDoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB64FA43215F0211006C1FFE /* TRTHealthDoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB64FA53215F0211006C1FFE /* Build configuration list for PBXNativeTarget "TRTHealthDoctorUITests" */;
+			buildPhases = (
+				4A7D1BA55DE1BE543EB28160 /* [CP] Check Pods Manifest.lock */,
+				CB64FA40215F0211006C1FFE /* Sources */,
+				CB64FA41215F0211006C1FFE /* Frameworks */,
+				CB64FA42215F0211006C1FFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB64FA46215F0211006C1FFE /* PBXTargetDependency */,
+			);
+			name = TRTHealthDoctorUITests;
+			productName = TRTHealthDoctorUITests;
+			productReference = CB64FA44215F0211006C1FFE /* TRTHealthDoctorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB64FA19215F0210006C1FFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = zhoupengju;
+				TargetAttributes = {
+					CB64FA20215F0210006C1FFE = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					CB64FA38215F0211006C1FFE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CB64FA20215F0210006C1FFE;
+					};
+					CB64FA43215F0211006C1FFE = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = CB64FA20215F0210006C1FFE;
+					};
+				};
+			};
+			buildConfigurationList = CB64FA1C215F0210006C1FFE /* Build configuration list for PBXProject "TRTHealthDoctor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB64FA18215F0210006C1FFE;
+			productRefGroup = CB64FA22215F0210006C1FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB64FA20215F0210006C1FFE /* TRTHealthDoctor */,
+				CB64FA38215F0211006C1FFE /* TRTHealthDoctorTests */,
+				CB64FA43215F0211006C1FFE /* TRTHealthDoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB64FA1F215F0210006C1FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB64FADC215F02BE006C1FFE /* tabbar_2@3x.png in Resources */,
+				CB64FAD8215F02BE006C1FFE /* tabbar_3_on@2x.png in Resources */,
+				CB64FAD5215F02BE006C1FFE /* tabbar_1@2x.png in Resources */,
+				CB64FAD7215F02BE006C1FFE /* btnRegister@3x.png in Resources */,
+				CB64FAD4215F02BE006C1FFE /* tabbar_2_on@3x.png in Resources */,
+				CB50892221608A21008C154F /* sa_wdxx@3x.png in Resources */,
+				CB64FA31215F0210006C1FFE /* LaunchScreen.storyboard in Resources */,
+				CB64FADD215F02BE006C1FFE /* tabbar_1_on@2x.png in Resources */,
+				CB508917216060DF008C154F /* sq_home_information@3x.png in Resources */,
+				CB50891921606298008C154F /* sq_fanhui_all@3x.png in Resources */,
+				CB64FAD6215F02BE006C1FFE /* tabbar_3@3x.png in Resources */,
+				CB64FADA215F02BE006C1FFE /* btnRegister@2x.png in Resources */,
+				CB50892121608A21008C154F /* sa_wdxx@2x.png in Resources */,
+				CB64FAE0215F02BE006C1FFE /* tabbar_1_on@3x.png in Resources */,
+				CB64FAD3215F02BE006C1FFE /* tabbar_2_on@2x.png in Resources */,
+				CB64FADF215F02BE006C1FFE /* btn-k@2x.png in Resources */,
+				CB64FAD2215F02BE006C1FFE /* tabbar_1@3x.png in Resources */,
+				CB50891E216089F5008C154F /* exit@2x.png in Resources */,
+				CB64FAD1215F02BE006C1FFE /* tabbar_3@2x.png in Resources */,
+				CB64FAD9215F02BE006C1FFE /* tabbar_3_on@3x.png in Resources */,
+				CB64FA2E215F0210006C1FFE /* Assets.xcassets in Resources */,
+				CB64FADE215F02BE006C1FFE /* btn-k@3x.png in Resources */,
+				CB64FADB215F02BE006C1FFE /* tabbar_2@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB64FA37215F0211006C1FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB64FA42215F0211006C1FFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A7D1BA55DE1BE543EB28160 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRTHealthDoctorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		527F20CD5003472C305A57A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRTHealthDoctorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4B1AFC61EB9B14555DE7FC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRTHealthDoctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E149FD76F30E529BD8D5D95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TRTHealthDoctor/Pods-TRTHealthDoctor-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRTHealthDoctor/Pods-TRTHealthDoctor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB64FA1D215F0210006C1FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB64FA34215F0210006C1FFE /* main.m in Sources */,
+				CBC8FFEA215F9E3400435E16 /* TRTBaseNavigationController.m in Sources */,
+				CB64FAF6215F02BE006C1FFE /* UIImage+Extension.m in Sources */,
+				CB64FAF5215F02BE006C1FFE /* CommonKeyManager.m in Sources */,
+				CBC8FFE6215F9E3400435E16 /* TRTBaseController.m in Sources */,
+				CB2B98CC215F52A800838A02 /* UIControl+PJHelperBlockKit.m in Sources */,
+				CB2B98C7215F52A800838A02 /* UILabel+PJMasonryKit.m in Sources */,
+				CB35EE77215F563C00C61C5D /* UIView+MBLayout.m in Sources */,
+				CB64FA26215F0210006C1FFE /* AppDelegate.m in Sources */,
+				CB2B98CB215F52A800838A02 /* UIGestureRecognizer+PJHelperBlockKit.m in Sources */,
+				CBC8FFE7215F9E3400435E16 /* TRTBaseTabBarController.m in Sources */,
+				CB2B98C8215F52A800838A02 /* UITextField+PJMasonryKit.m in Sources */,
+				CB991E8D215F113700C8CAF0 /* CommonStatusValueManager.m in Sources */,
+				CB64FACF215F02BE006C1FFE /* TRTShoppingCartController.m in Sources */,
+				CB2B98CA215F52A800838A02 /* UIImageView+PJMasonryKit.m in Sources */,
+				CB35EE6E215F549200C61C5D /* NSString+Extension.m in Sources */,
+				CBC8FFE8215F9E3400435E16 /* TRTBaseTableView.m in Sources */,
+				CB5089052160560B008C154F /* TRTMainLikeTabBarManger.m in Sources */,
+				CB50892D2160A2BE008C154F /* TRTCustomUpDownButton.m in Sources */,
+				CB50891121605A91008C154F /* TRTBotAIChatController.m in Sources */,
+				CB2B98CF215F52A800838A02 /* UISlider+PJHelperBlocksKit.m in Sources */,
+				CB64FAE9215F02BE006C1FFE /* TRTHomeHelper.m in Sources */,
+				CBC8FFEE215F9E3400435E16 /* TRTMainPageManger.m in Sources */,
+				CBCB72C2216C7618001BABB6 /* NSObject+TRTSafeTool.m in Sources */,
+				CB2B98D0215F52A800838A02 /* PJCommonKit.m in Sources */,
+				CBC8FFE9215F9E3400435E16 /* TRTBaseDataHelper.m in Sources */,
+				CBC8FFEC215F9E3400435E16 /* TRTSDKIntegrationManger.m in Sources */,
+				CB50891521605FE7008C154F /* TRTMessageDisplayController.m in Sources */,
+				CBC8FFE4215F9E3400435E16 /* TRTBaseWebView.m in Sources */,
+				CBC8FFED215F9E3400435E16 /* TRTMainTabBarManger.m in Sources */,
+				CBC8FFE5215F9E3400435E16 /* TRTBaseModel.m in Sources */,
+				CB5089312160AA30008C154F /* TRTMallMenuPageManger.m in Sources */,
+				CB2B98CD215F52A800838A02 /* UIView+PJHelperBlockKit.m in Sources */,
+				CBCB72BE216C756D001BABB6 /* TRTTools.m in Sources */,
+				CB64FAE8215F02BE006C1FFE /* TRTHomeCell.m in Sources */,
+				CB64FAE6215F02BE006C1FFE /* TRTHomeViewController.m in Sources */,
+				CB35EE74215F55DE00C61C5D /* UIBarButtonItem+Extension.m in Sources */,
+				CB991E79215F061800C8CAF0 /* TRTHomeModel.m in Sources */,
+				CB2B98C9215F52A800838A02 /* UIView+PJMasonryKit.m in Sources */,
+				CB2B98CE215F52A800838A02 /* UIButton+PJHelperBlocksKit.m in Sources */,
+				CB35EE71215F54D600C61C5D /* NSObject+topVierController.m in Sources */,
+				CBC8FFEB215F9E3400435E16 /* TRTGuideController.m in Sources */,
+				CBCB72BD216C756D001BABB6 /* NSObject+TRTTools.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB64FA35215F0211006C1FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB64FA3E215F0211006C1FFE /* TRTHealthDoctorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB64FA40215F0211006C1FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB64FA49215F0211006C1FFE /* TRTHealthDoctorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB64FA3B215F0211006C1FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB64FA20215F0210006C1FFE /* TRTHealthDoctor */;
+			targetProxy = CB64FA3A215F0211006C1FFE /* PBXContainerItemProxy */;
+		};
+		CB64FA46215F0211006C1FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB64FA20215F0210006C1FFE /* TRTHealthDoctor */;
+			targetProxy = CB64FA45215F0211006C1FFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB64FA2F215F0210006C1FFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB64FA30215F0210006C1FFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB64FA4B215F0211006C1FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB64FA4C215F0211006C1FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB64FA4E215F0211006C1FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9A2BFBE139F5417166B4361 /* Pods-TRTHealthDoctor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5CZVT3SCF;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = TRTHealthDoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoupengju.www.TRTHealthDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB64FA4F215F0211006C1FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E355850CB486B49C2FDAC9 /* Pods-TRTHealthDoctor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5CZVT3SCF;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/PrefixHeader.pch";
+				INFOPLIST_FILE = TRTHealthDoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoupengju.www.TRTHealthDoctor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB64FA51215F0211006C1FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B1325B3D1179ADB376E32E4 /* Pods-TRTHealthDoctorTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5CZVT3SCF;
+				INFOPLIST_FILE = TRTHealthDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoupengju.www.TRTHealthDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRTHealthDoctor.app/TRTHealthDoctor";
+			};
+			name = Debug;
+		};
+		CB64FA52215F0211006C1FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F031C34B7E3ECCFE1792C9FF /* Pods-TRTHealthDoctorTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5CZVT3SCF;
+				INFOPLIST_FILE = TRTHealthDoctorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoupengju.www.TRTHealthDoctorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TRTHealthDoctor.app/TRTHealthDoctor";
+			};
+			name = Release;
+		};
+		CB64FA54215F0211006C1FFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C220F36382FE9CADB2DF650 /* Pods-TRTHealthDoctorUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5CZVT3SCF;
+				INFOPLIST_FILE = TRTHealthDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoupengju.www.TRTHealthDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRTHealthDoctor;
+			};
+			name = Debug;
+		};
+		CB64FA55215F0211006C1FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B739B8B60DA9976246F8FBF6 /* Pods-TRTHealthDoctorUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M5CZVT3SCF;
+				INFOPLIST_FILE = TRTHealthDoctorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhoupengju.www.TRTHealthDoctorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TRTHealthDoctor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB64FA1C215F0210006C1FFE /* Build configuration list for PBXProject "TRTHealthDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB64FA4B215F0211006C1FFE /* Debug */,
+				CB64FA4C215F0211006C1FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB64FA4D215F0211006C1FFE /* Build configuration list for PBXNativeTarget "TRTHealthDoctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB64FA4E215F0211006C1FFE /* Debug */,
+				CB64FA4F215F0211006C1FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB64FA50215F0211006C1FFE /* Build configuration list for PBXNativeTarget "TRTHealthDoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB64FA51215F0211006C1FFE /* Debug */,
+				CB64FA52215F0211006C1FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB64FA53215F0211006C1FFE /* Build configuration list for PBXNativeTarget "TRTHealthDoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB64FA54215F0211006C1FFE /* Debug */,
+				CB64FA55215F0211006C1FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB64FA19215F0210006C1FFE /* Project object */;
+}
