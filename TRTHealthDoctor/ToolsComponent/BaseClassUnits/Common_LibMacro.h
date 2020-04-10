@@ -10,10 +10,10 @@
 #define Common_LibMacro_h
 
 // 阿里云
-#define AccessKey @"LTAIvFYLDLITjKa5"
-#define SecretKey @"NOFKzibXhqZ6wweSE1fuYH9XvDJD6r"
-#define endPointOSS @"oss-cn-qingdao.aliyuncs.com"
-#define multipartUploadKey @"multipartUploadObject"
+#define AccessKey @""
+#define SecretKey @""
+#define endPointOSS @""
+#define multipartUploadKey @""
 
 // 友盟
 
